@@ -1,0 +1,87 @@
+.row-working {
+  display: flex;
+  flex-direction: column;
+}
+.row-1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.row-2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.col-1-of-3 {
+  display: block;
+  margin-bottom: 1.5rem;
+  position: relative;
+  animation-name: fade-in-left;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+}
+.col-1-of-3 img {
+  width: 20em;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  border: 2px solid black;
+}
+
+.col-2-of-3 {
+  display: block;
+  margin-bottom: 1.5rem;
+  position: relative;
+  animation-name: fade-in-left;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+}
+.col-2-of-3 img {
+  width: 20em;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid black;
+}
+
+.elemter-button-link {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  width: -moz-max-content;
+  width: max-content;
+  display: block;
+  top: 70%;
+  left: 28%;
+}
+.elemter-button-link:hover {
+  transform: translateY(-8px);
+}
+.elemter-button-link .elementor-button-text {
+  background-color: red;
+  padding: 7px 15px 7px 15px;
+  position: relative;
+  width: -moz-max-content;
+  width: max-content;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.elemter-button-name {
+  font-size: 2rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  width: -moz-max-content;
+  width: max-content;
+  display: block;
+  top: 50%;
+  left: 12%;
+}
+.elemter-button-name .elementor-button-text {
+  padding: 7px 15px 7px 15px;
+  position: relative;
+  width: -moz-max-content;
+  width: max-content;
+  border-radius: 4px 4px 4px 4px;
+  background-color: white;
+}

@@ -1,0 +1,135 @@
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: auto;
+  padding: 50px;
+  flex-direction: row;
+}
+
+#contact .container .contact-info p a {
+  text-decoration: none;
+  color: rgb(75, 73, 73);
+}
+
+.contact-info {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  animation-name: fade-in-left;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+}
+
+.contact-info h2 {
+  color: rgb(75, 73, 73);
+  font-size: 30px;
+}
+
+.contact-form form input {
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 25px 5px rgba(0, 0, 0, 0.7);
+}
+
+.contact-form form textarea {
+  width: 90%;
+  border-radius: 5px;
+  padding: 10px;
+  resize: none;
+  overflow: hidden;
+  box-shadow: 10px 10px 25px 5px rgba(0, 0, 0, 0.7);
+}
+
+.contact-form th {
+  color: rgb(144, 92, 92);
+  color: #000000;
+  font-size: 25px;
+}
+
+.contact-form td {
+  padding: 10px 0;
+}
+
+.contact-info p {
+  color: rgba(119, 78, 78, 0.7);
+}
+
+.container {
+  border-radius: 5px;
+}
+
+.contact-form {
+  width: 40%;
+  height: auto;
+  padding-bottom: 30px;
+}
+
+.contact-form {
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  background-image: linear-gradient(370deg, rgba(104, 183, 220, 0.8), #fff);
+  box-shadow: 0px 9px 11px 4px rgba(0, 0, 0, 0.7);
+  animation-name: fade-in-right;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+}
+
+.victory {
+  width: auto;
+  height: 20px;
+}
+
+.contact-form form table {
+  width: 100%;
+}
+
+.contact-form form {
+  width: 80%;
+}
+
+.submitbtn {
+  background-color: rgba(138, 138, 238, 0.8);
+  color: #fff;
+  border: 0px;
+  border-radius: 10px;
+  height: 35px;
+  padding: 0 10px;
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.7);
+  left: 32%;
+  position: relative;
+}
+
+.submitbtn:hover {
+  background-color: rgb(0, 183, 255);
+  color: rgb(117, 234, 136);
+}
+
+@media screen and (max-width: 500px) {
+  .contact {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-form {
+    width: 100%;
+    animation-name: fade-in-right;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+  }
+}
+.container {
+  flex-direction: column;
+  width: 100%;
+}
+
+.contact-info {
+  width: 100%;
+  animation-name: fade-in-left;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+}/*# sourceMappingURL=contact.css.map */
