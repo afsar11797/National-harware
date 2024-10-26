@@ -1,0 +1,41 @@
+.product--desc {
+  display: flex;
+  justify-content: center;
+}
+.product-img-container {
+  img {
+    width: 380px;
+    height: 260px;
+  }
+}
+.product-details {
+  p {
+    padding: 30px 30px 3px 0px;
+  }
+  button {
+    padding: 5px;
+  }
+}
+.reviews {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+.rating {
+  margin: 0 0 10px;
+  font-weight: bold;
+}
+.star {
+  font-size: 1.2em;
+  color: gold;
+  margin-right: 5px;
+}
+.review-text {
+  padding-bottom: 20px;
+}
+@media (max-width: 500px) {
+  .product--desc {
+    flex-direction: column;
+  }
+}

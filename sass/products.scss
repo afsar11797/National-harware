@@ -1,3 +1,6 @@
+.product {
+  padding-top: 30px;
+}
 .row-working {
   display: flex;
   flex-direction: column;
@@ -84,4 +87,15 @@
   width: max-content;
   border-radius: 4px 4px 4px 4px;
   background-color: white;
+}
+
+@media (max-width: 500px) {
+  .row-1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .row-2 {
+    flex-direction: column;
+    align-items: center;
+  }
 }
