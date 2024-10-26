@@ -168,4 +168,8 @@ h1 {
     display: block;
     padding: 5px 25px;
   }
+  .products-feature img {
+    width: 300px;
+    height: 300px;
+  }
 }/*# sourceMappingURL=style.css.map */
