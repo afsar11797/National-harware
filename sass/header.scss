@@ -8,6 +8,9 @@
   img {
     width: 184px;
     height: 64px;
+    animation-name: fade-in-right;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
   }
   button {
     display: none;
@@ -25,6 +28,9 @@
     display: flex;
     gap: 1rem;
     list-style: none;
+    animation-name: fade-in-right;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
     li a {
       text-decoration: none;
       color: rgb(0, 0, 0);

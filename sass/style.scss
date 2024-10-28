@@ -19,6 +19,9 @@ body {
   .left {
     align-content: center;
     margin: 0 auto;
+    animation-name: fade-in-left;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
     h2 {
       color: rgb(45, 95, 95);
       font-size: 30px;
@@ -40,6 +43,9 @@ body {
   display: flex;
   justify-content: space-evenly;
   background-color: rgb(242, 241, 241);
+  animation-name: fade-in-left;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
   img {
     width: 400px;
     height: 400px;
@@ -105,6 +111,9 @@ h1 {
       display: flex;
       flex-direction: column;
       align-items: center;
+      animation-name: fade-in-right;
+      animation-duration: 2s;
+      animation-timing-function: ease-in-out;
     }
     img {
       width: 100%;
@@ -112,7 +121,9 @@ h1 {
     }
   }
   .products-feature {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     .product-left {
       padding: 5px 25px;

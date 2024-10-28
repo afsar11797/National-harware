@@ -10,11 +10,17 @@
 .row-1 {
   display: flex;
   justify-content: space-evenly;
+  animation-name: fade-in-right;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
 }
 
 .row-2 {
   display: flex;
   justify-content: space-evenly;
+  animation-name: fade-in-left;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
 }
 
 .col-1-of-3 {
@@ -32,6 +38,9 @@
   display: block;
   border-radius: 8px;
   border: 2px solid black;
+  animation-name: fade-in-up;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
 }
 
 .col-2-of-3 {
@@ -73,6 +82,9 @@
   width: -moz-max-content;
   width: max-content;
   border-radius: 4px 4px 4px 4px;
+  animation-name: fade-in-right;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
 }
 
 .elemter-button-name {
@@ -101,6 +113,9 @@
   .row-1 {
     flex-direction: column;
     align-items: center;
+    animation-name: fade-in-right;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
   }
   .row-2 {
     flex-direction: column;

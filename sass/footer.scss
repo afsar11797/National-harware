@@ -9,12 +9,18 @@
     display: flex;
     justify-content: center;
     text-decoration: none;
+    animation-name: fade-in-down;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
   }
 }
 .quick-links-head {
   display: flex;
   justify-content: space-evenly;
   padding: 20px 0;
+  animation-name: fade-in-up;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
 }
 .quick-links {
   color: white;

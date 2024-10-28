@@ -16,6 +16,9 @@
   display: flex;
   justify-content: center;
   font-size: 30px;
+  animation-name: fade-in-up;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
 }
 .about-content-title p {
   padding: 10px;
@@ -28,6 +31,9 @@
 .our-services img {
   width: 60px;
   height: 60px;
+  animation-name: fade-in-right;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
 }
 
 .our-services-title {
@@ -35,6 +41,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  animation-name: fade-in-down;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
 }
 
 .our-services-para {
@@ -49,6 +58,9 @@
   .our-services-para {
     gap: 30px;
     padding: 10px;
+    animation-name: fade-in-left;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
   }
   .about-title h2 {
     font-size: 35px;
@@ -202,11 +214,17 @@
 .row-1 {
   display: flex;
   justify-content: space-evenly;
+  animation-name: fade-in-right;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
 }
 
 .row-2 {
   display: flex;
   justify-content: space-evenly;
+  animation-name: fade-in-left;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
 }
 
 .col-1-of-3 {
@@ -224,6 +242,9 @@
   display: block;
   border-radius: 8px;
   border: 2px solid black;
+  animation-name: fade-in-up;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
 }
 
 .col-2-of-3 {
@@ -265,6 +286,9 @@
   width: -moz-max-content;
   width: max-content;
   border-radius: 4px 4px 4px 4px;
+  animation-name: fade-in-right;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
 }
 
 .elemter-button-name {
@@ -293,6 +317,9 @@
   .row-1 {
     flex-direction: column;
     align-items: center;
+    animation-name: fade-in-right;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
   }
   .row-2 {
     flex-direction: column;
@@ -318,6 +345,9 @@ body {
 .hot-deals .left {
   align-content: center;
   margin: 0 auto;
+  animation-name: fade-in-left;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
 }
 .hot-deals .left h2 {
   color: rgb(45, 95, 95);
@@ -339,6 +369,9 @@ body {
   display: flex;
   justify-content: space-evenly;
   background-color: rgb(242, 241, 241);
+  animation-name: fade-in-left;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
 }
 .products-feature img {
   width: 400px;
@@ -403,13 +436,18 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    animation-name: fade-in-right;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
   }
   .hot-deals img {
     width: 100%;
     padding: 10px;
   }
   .products-feature {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .products-feature .product-left {
     padding: 5px 25px;

@@ -16,6 +16,9 @@
   display: flex;
   justify-content: center;
   font-size: 30px;
+  animation-name: fade-in-up;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
 }
 .about-content-title p {
   padding: 10px;
@@ -28,6 +31,9 @@
 .our-services img {
   width: 60px;
   height: 60px;
+  animation-name: fade-in-right;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
 }
 
 .our-services-title {
@@ -35,6 +41,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  animation-name: fade-in-down;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
 }
 
 .our-services-para {
@@ -49,6 +58,9 @@
   .our-services-para {
     gap: 30px;
     padding: 10px;
+    animation-name: fade-in-left;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
   }
   .about-title h2 {
     font-size: 35px;
