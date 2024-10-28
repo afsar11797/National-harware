@@ -4,10 +4,12 @@
 }
 .product-img-container {
   img {
+    padding: 20px;
     width: 380px;
     height: 260px;
   }
 }
+
 .product-details {
   p {
     padding: 30px 30px 3px 0px;
@@ -19,6 +21,12 @@
 @media (max-width: 500px) {
   .product-details {
     padding: 20px;
+  }
+  .product-img-container {
+    img {
+      display: flex;
+      margin: 0 auto;
+    }
   }
 }
 .reviews {
