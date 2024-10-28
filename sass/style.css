@@ -382,7 +382,10 @@ body {
 }
 .products-feature button {
   height: 20px;
-  color: rgb(0, 0, 0);
+}
+.products-feature button a {
+  text-decoration: none;
+  color: black;
 }
 
 h1 {
